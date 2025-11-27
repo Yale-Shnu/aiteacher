@@ -25,6 +25,7 @@
         .container {
             text-align: center;
             padding: 40px;
+            max-width: 500px;
         }
         
         .logo {
@@ -50,11 +51,18 @@
             margin-top: 20px;
             font-size: 0.9rem;
             color: #666;
+            line-height: 1.5;
         }
         
         .countdown {
             font-weight: bold;
             color: #2c5530;
+        }
+        
+        .explanation {
+            margin-top: 5px;
+            font-size: 0.85rem;
+            color: #888;
         }
     </style>
 </head>
@@ -63,7 +71,8 @@
         <img src="logo.png" alt="AI教师系列" class="logo">
         <h1 id="jumpLink">AI教师系列·语文</h1>
         <div class="loading">
-            正在跳转到AI教师页面（说明：服务器按需定时开放；如页面不能正常访问，意味着我们的服务器没有开放）... <span id="countdown" class="countdown">5</span>秒
+            正在跳转到AI教师页面... <span id="countdown" class="countdown">5</span>秒
+            <div class="explanation">说明：在跳转后的页面如有“visit site”点击即可。服务器按需定时开放；如页面不能正常访问，意味着我们的服务器没有开放</div>
         </div>
     </div>
 
